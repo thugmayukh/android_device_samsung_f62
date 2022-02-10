@@ -84,6 +84,9 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 	product \
 	odm
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+
 # Treble
 TARGET_COPY_OUT_VENDOR := vendor
 
