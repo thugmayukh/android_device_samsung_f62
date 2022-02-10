@@ -25,6 +25,10 @@ BOARD_VENDOR := samsung
 # Inherit from the proprietary version
 $(call inherit-product, vendor/samsung/f62/f62-vendor.mk)
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+	$(LOCAL_PATH)
+
 # Ramdisk
 PRODUCT_PACKAGES += \
 	fstab.exynos9825 \
