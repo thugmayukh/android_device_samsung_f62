@@ -27,4 +27,5 @@ $(call inherit-product, vendor/samsung/f62/f62-vendor.mk)
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-	fstab.exynos9825
+	fstab.exynos9825 \
+	ueventd.exynos9825
