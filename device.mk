@@ -18,3 +18,9 @@ LOCAL_PATH := device/samsung/f62
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# Vendor
+BOARD_VENDOR := samsung
+
+# Inherit from the proprietary version
+$(call inherit-product, vendor/samsung/f62/f62-vendor.mk)

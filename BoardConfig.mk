@@ -83,3 +83,6 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 
 # Treble
 TARGET_COPY_OUT_VENDOR := vendor
+
+# Inherit from the proprietary version
+-include vendor/samsung/f62/BoardConfigVendor.mk
