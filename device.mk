@@ -32,6 +32,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
 	fstab.exynos9825 \
+	init.exynos9825.rc \
+	init.exynos9825.usb.rc \
+	init.baseband.rc \
+	init.gps.rc \
 	ueventd.exynos9825
 
 # WiFi

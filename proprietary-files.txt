@@ -645,11 +645,7 @@ vendor/etc/init/cass.rc
 vendor/etc/init/emservice.rc
 vendor/etc/init/hyper-default-sec.rc
 vendor/etc/init/icd_over_five_vendor.rc
-vendor/etc/init/init.baseband.rc
 vendor/etc/init/init.exynos9825.cbd.rc
-vendor/etc/init/init.exynos9825.rc
-vendor/etc/init/init.exynos9825.usb.rc
-vendor/etc/init/init.gps.rc
 vendor/etc/init/init.vendor.onebinary.rc
 vendor/etc/init/init.vendor.rilchip.rc
 vendor/etc/init/init.vendor.rilcommon.rc
