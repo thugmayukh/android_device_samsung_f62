@@ -72,3 +72,9 @@ sys.config.hardcoder.enable=false
 sys.config.ibs.enable=false
 vendor.sec.rild.libpath2=/vendor/lib64/libsec-ril-dsds.so
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+
+# Debug
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
