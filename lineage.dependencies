@@ -2,5 +2,10 @@
     {
         "repository"    :   "vendor_samsung_f62",
         "target_path"   :   "vendor/samsung/f62"
+    },
+    {
+        "remote"        :   "github",
+        "repository"    :   "Sushrut1101-ROMs/kernel_samsung_f62",
+        "target_path"   :   "kernel/samsung/f62"
     }
 ]
