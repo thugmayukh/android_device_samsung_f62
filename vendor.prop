@@ -72,6 +72,8 @@ sys.config.hardcoder.enable=false
 sys.config.ibs.enable=false
 vendor.sec.rild.libpath2=/vendor/lib64/libsec-ril-dsds.so
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+net.dns1=8.8.8.8
+net.dns2=8.8.4.4
 
 # Debug
 persist.service.adb.enable=1
