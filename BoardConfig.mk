@@ -48,7 +48,9 @@ BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
 TARGET_OTA_ASSERT_DEVICE := f62
 
 # Kernel
-BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := \
+	androidboot.selinux=permissive \
+	loop.max_part=7
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
