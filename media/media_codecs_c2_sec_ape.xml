@@ -17,8 +17,9 @@
 <MediaCodecs>
     <Decoders>
         <MediaCodec name="c2.sec.ape.decoder" type="audio/x-ape" rank="1">
-            <Quirk name="needs-flush-before-disable" />
-            <Quirk name="decoder-ignores-streamcorrupt-error" />
+            <Limit name="channel-count" max="2" />
+            <Limit name="sample-rate" ranges="1-192000" />
+            <Limit name="bitrate" range="8000-960000" />
         </MediaCodec>
     </Decoders>
 </MediaCodecs>

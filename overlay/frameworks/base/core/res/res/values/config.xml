@@ -230,7 +230,7 @@
          if the sensor HAL correctly handles the proximity sensor as a wake-up source.
          Otherwise, the device may fail to wake out of suspend reliably.
          The default is false. -->
-    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
 
     <!-- If we allow automatic adjustment of screen brightness while dozing, how many times we want
          to reduce it to preserve the battery. Value of 100% means no scaling. -->
@@ -245,7 +245,7 @@
          This value must be greater than zero, otherwise the device will immediately
          fall asleep again as soon as it is awoken.
     -->
-    <integer name="config_minimumScreenOffTimeout">3000</integer>
+    <integer name="config_minimumScreenOffTimeout">15000</integer>
 
     <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
          on the headphone/microphone jack. When false use the older uevent framework. -->
@@ -305,9 +305,9 @@
          on the device.
          Example: "com.android.wellbeing"
      -->
-    <!--
-    <string name="config_defaultWellbeingPackage" translatable="false">com.samsung.android.forest</string>
-    -->
+  
+    <string name="config_defaultWellbeingPackage" translatable="false">com.android.wellbeing</string>
+   
 
     <!-- FP trustled limits the number to 4. -->
     <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
@@ -434,7 +434,7 @@
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
          The default is false. -->
-    <bool name="config_lidControlsSleep">true</bool>
+    <bool name="config_lidControlsSleep">false</bool>
 
     <!-- The device supports freeform window management. Windows have title bars and can be moved
          and resized. If you set this to true, you also need to add
